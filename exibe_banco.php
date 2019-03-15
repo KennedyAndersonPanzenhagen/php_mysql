@@ -1,6 +1,6 @@
 <?php
 //cria a conexão
-$conn = mysqli_connect('localhost', 'kap', 'ppee424', 'novo_usuario');
+$conn = mysqli_connect('seu servidor', 'seu usuario', 'sua senha', 'seu banco de dados');
 $consulta = "SELECT * FROM usuario ";
 $resultado_usuario = mysqli_query($conn, $consulta);
 
