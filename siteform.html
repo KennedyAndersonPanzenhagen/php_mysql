@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--processa.php-->
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Contate-nos:</h1>
+        <h2>Você está pronto para conhecer o futuro?</h2>
+    </div>
+
+    <div class="box">
+        <form method="post" action="processa.php">
+            <input type="text" name="nome" class="form-control" placeholder="Digite o seu Nome:"  required><br>
+            <input type="number" name="idade" class="form-control" placeholder="Digite a sua Idade:"  required><br>
+            <input type="text" name="cidade" class="form-control" placeholder="Digite a sua Cidade:"  required><br>
+            <input type="number" name="cpf" class="form-control" placeholder="Digite o seu CPF:"  required><br>
+            <input type="email" name="email" class="form-control" placeholder="Digite o Seu E-mail:" required><br>
+            <textarea name="mensagem" class="form-control" placeholder="Mensagem: " rows="5"></textarea><br>
+            <input type="submit" name="" class="form-control submit" value="Cadastrar"><br>
+        </form>
+        <input type="submit" name="" class="form-control submit" value="Visualizar dados Cadastrados na Base" onclick="location. href='exibe_banco.php'">
+    </div>
+
+</body>
+</html>
