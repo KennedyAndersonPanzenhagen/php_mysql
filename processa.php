@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'novo_usuario');
+$conn = mysqli_connect('seu servidor', 'seu usuario', 'sua senha', ' sua base de dados');
 
 if (mysqli_connect_errno()) {
     die('Erro na conexão.');
