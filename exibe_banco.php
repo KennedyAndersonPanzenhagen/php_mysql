@@ -1,7 +1,7 @@
 <?php
 //cria a conexão
 $conn = mysqli_connect('seu servidor', 'seu usuario', 'sua senha', 'seu banco de dados');
-$consulta = "SELECT * FROM usuario ";
+$consulta = "SELECT * FROM sua tabela ";
 $resultado_usuario = mysqli_query($conn, $consulta);
 
 
