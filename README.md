@@ -1,5 +1,2 @@
 # php_mysql
-Pequeno código que cria um formulário de contato e salva as informações no banco,
-que podem ser consultadas previamente depois de cadastradas.
-(Small code that creates a contact form and saves the information in the database, 
-which can be consulted in advance after being registered.) 
+Código que cria uma tela de apresentação, redireciona para um formulário de contato que posteriormente depois de preenchido salva os dados em um bando de dados que pode ser consultado e deletado se o usuário quiser.
