@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'kennedyanderson', '!@u!SWZrmm.rO[GCf!1([UL!Pzcw,K', 'novo_usuario');
+$conn = mysqli_connect('seu servidor', 'seu usuario', 'sua senha', 'sua base de dados');
 $consulta = "SELECT * FROM usuario";
 
 if (mysqli_connect_errno()) {
