@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background: url("fundo.jpg");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+.title{
+    margin: 100px;
+    color: #fff;
+}
+.title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.title h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-control{
+    width: 600px;
+    background:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+ input{
+     height: 45px;
+ }
+
+ form .submit{
+     background-color: white;
+     border-color: transparent;
+     color: black;
+     font-size: 20px;
+     letter-spacing: 2px;
+     height: 50px;
+     margin-top: 20px;
+     transition: 0.4s ease;
+     cursor: pointer;
+ }
+
+ .submit{
+     background-color: white;
+     border-color: black;
+     color: black;
+     font-size: 20px;
+     letter-spacing: 2px;
+     height: 50px;
+     margin-top: 20px;
+     transition: 0.4s ease;
+     cursor: pointer;
+ }
+
+ .sub2{
+     background-color: white;
+     border-color: black;
+     color: black;
+     font-size: 20px;
+     letter-spacing: 2px;
+     height: 50px;
+     margin-top: 20px;
+     transition: 0.4s ease;
+     cursor: pointer;
+ }
+
